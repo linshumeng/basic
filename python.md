@@ -1,6 +1,24 @@
 # how to use python
 
+## The Most Popular Programming Languages
+
+![The Most Popular Programming Languages](./The%20Most%20Popular%20Programming%20Languages.jpeg)
+
+## What can we do using python?
+
+1. Automation
+2. Web Scraping
+3. Data Analysis & Data Science
+4. Web Development
+5. Machine Learning & Artificial Intelligence
+
 ## Environment
+
+### What is python environment?
+
+环境由解释器、库（通常是 Python 标准库）以及一组已安装的包组成。
+
+### CMD Commands
 
 py3 表示创建环境的名字，后面 python=3.5 表示创建环境 python 的版本
 `conda create -n py3 python=3.5`
@@ -61,6 +79,8 @@ single_trailing_underscore\_: used by convention to avoid conflicts with Python 
 `a.__getitem__(x)` => `a[x]`
 
 Ref:
+[The Most Popular Programming Languages](https://www.statista.com/chart/16567/popular-programming-languages/)
+[Here’s Everything You Can Do With Python (And What You Shouldn’t)](https://medium.com/geekculture/heres-everything-you-can-do-with-python-and-what-you-shouldn-t-8e20ad82261b#4ba7)
 [Anaconda 环境的创建/激活/删除/管理](https://blog.csdn.net/qq1483661204/article/details/78182430)
 [anaconda 环境切换](https://zhuanlan.zhihu.com/p/141122337)
 [python 中的 if not](https://blog.csdn.net/qq_36850813/article/details/93464498)
