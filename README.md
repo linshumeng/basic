@@ -28,4 +28,8 @@ Some basic knowledge to be reviewed
 
 ## how to use julia
 
+## how to use pytorch
+
+## how to use django
+
 ## how to create a package
