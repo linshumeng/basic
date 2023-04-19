@@ -18,6 +18,12 @@
 
 环境由解释器、库（通常是 Python 标准库）以及一组已安装的包组成。
 
+### pip and conda
+
+pip 是 Python 包管理工具，conda 是一个开源的软件包管理系统和环境管理系统。
+
+pip 对 Python 包进行管理，而 conda 不仅能进行包管理，还能够创建隔离的环境，该环境可以包含不同版本的 Python 和或其中安装的软件包。
+
 ### CMD Commands
 
 py3 表示创建环境的名字，后面 python=3.5 表示创建环境 python 的版本
@@ -37,6 +43,17 @@ py3 表示创建环境的名字，后面 python=3.5 表示创建环境 python �
 
 在当前环境里安装 ipykernel
 `conda install ipykernel`
+
+## library and framework
+
+你调用库(library)来写程序，整体的流程，结构，标准都是你说了算。而框架(framework)，则反过来，是框架(framework)在"调用"你。
+
+数据可以封装在容器(列表 元组 字符串 字典)里面;
+代码可以封装在 function 里面;
+function 和数据可以封装在 class 里面(或者说方法和属性可以封装在类里面);
+上述三类内容可以打包在 module(模块)里面;
+多个 module 可以打包在 package(包)里面;
+多个 package 可以打包在 library(库)里面。
 
 ## if
 
@@ -81,8 +98,12 @@ single_trailing_underscore\_: used by convention to avoid conflicts with Python 
 Ref:
 [The Most Popular Programming Languages](https://www.statista.com/chart/16567/popular-programming-languages/)
 [Here’s Everything You Can Do With Python (And What You Shouldn’t)](https://medium.com/geekculture/heres-everything-you-can-do-with-python-and-what-you-shouldn-t-8e20ad82261b#4ba7)
+[pip 和 conda 的联系区别、安装包方法、换源方法](https://blog.csdn.net/weixin_42077074/article/details/113745214)
+[初学 Python 者自学 Anaconda 的正确姿势是什么？](https://www.zhihu.com/question/58033789/answer/254673663)
 [Anaconda 环境的创建/激活/删除/管理](https://blog.csdn.net/qq1483661204/article/details/78182430)
 [anaconda 环境切换](https://zhuanlan.zhihu.com/p/141122337)
+[python 中的模块、库、包有什么区别？](https://www.zhihu.com/question/30082392)
+[Python 中模块，包，库，框架都是啥？](https://zhuanlan.zhihu.com/p/459244772)
 [python 中的 if not](https://blog.csdn.net/qq_36850813/article/details/93464498)
 [Why do some functions have underscores "\_\_" before and after the function name?](https://stackoverflow.com/questions/8689964/why-do-some-functions-have-underscores-before-and-after-the-function-name)
 [python 中 remove 的一些坑](https://www.cnblogs.com/lipx9527/p/9450819.html)
