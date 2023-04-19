@@ -73,7 +73,7 @@ for loop + remove:
 - 因为 for 循环实际是循环的列表下标（索引），同时由于列表的可变性，每一次删除一个元素，列表的长度就会发生变化，元素的索引也会发生变化。
 - 可以使用 deepcopy 来复制一份，之后一个列表用于循环，一个用于移除值。
 
-### :
+### ":"
 
 冒号（：）表示的就是一个整体，冒号出现在哪里就代表这个位置对整体。
 双冒号：
@@ -96,15 +96,27 @@ single_trailing_underscore\_: used by convention to avoid conflicts with Python 
 `a.__getitem__(x)` => `a[x]`
 
 Ref:
+
 [The Most Popular Programming Languages](https://www.statista.com/chart/16567/popular-programming-languages/)
+
 [Here’s Everything You Can Do With Python (And What You Shouldn’t)](https://medium.com/geekculture/heres-everything-you-can-do-with-python-and-what-you-shouldn-t-8e20ad82261b#4ba7)
+
 [pip 和 conda 的联系区别、安装包方法、换源方法](https://blog.csdn.net/weixin_42077074/article/details/113745214)
+
 [初学 Python 者自学 Anaconda 的正确姿势是什么？](https://www.zhihu.com/question/58033789/answer/254673663)
+
 [Anaconda 环境的创建/激活/删除/管理](https://blog.csdn.net/qq1483661204/article/details/78182430)
+
 [anaconda 环境切换](https://zhuanlan.zhihu.com/p/141122337)
+
 [python 中的模块、库、包有什么区别？](https://www.zhihu.com/question/30082392)
+
 [Python 中模块，包，库，框架都是啥？](https://zhuanlan.zhihu.com/p/459244772)
+
 [python 中的 if not](https://blog.csdn.net/qq_36850813/article/details/93464498)
+
 [Why do some functions have underscores "\_\_" before and after the function name?](https://stackoverflow.com/questions/8689964/why-do-some-functions-have-underscores-before-and-after-the-function-name)
+
 [python 中 remove 的一些坑](https://www.cnblogs.com/lipx9527/p/9450819.html)
+
 [python 中冒号（：）的作用](https://blog.csdn.net/weixin_46813313/article/details/113696218)

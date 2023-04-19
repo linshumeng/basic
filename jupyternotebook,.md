@@ -17,5 +17,7 @@ ipynb 其中的 python 代码部分，其实可以理解为就是 py 格式。
 jupyter 保存的文件的扩展名是 .ipynb，实际上这是一个 json 文件，就是本地服务的网页界面的实现，你的.ipynb 文件放在你的本地服务器就是你的电脑上，而浏览器就是客户端要显示该文件的内容，这就需要两方通信进行数据传输。
 
 Ref:
+
 [Ipython 与 Jupyter Notebook](https://sophia0130.github.io/2018/07/29/Ipython-%E4%B8%8E-Jupyter-Notebook/)
+
 [ipynb 和 py 格式是什么区别？](https://www.zhihu.com/tardis/sogou/qus/534426877)
