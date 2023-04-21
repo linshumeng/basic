@@ -22,7 +22,7 @@ Some basic knowledge to be reviewed
 
 ## how to use pyomo
 
-### what is path
+## what is path
 
 ## how to use lightgbm
 
