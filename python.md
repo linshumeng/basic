@@ -118,5 +118,3 @@ Ref:
 [Why do some functions have underscores "\_\_" before and after the function name?](https://stackoverflow.com/questions/8689964/why-do-some-functions-have-underscores-before-and-after-the-function-name)
 
 [python 中 remove 的一些坑](https://www.cnblogs.com/lipx9527/p/9450819.html)
-
-[python 中冒号（：）的作用](https://blog.csdn.net/weixin_46813313/article/details/113696218)
