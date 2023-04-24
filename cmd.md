@@ -42,6 +42,8 @@
 
 `ctrl＋shift＋v` 粘贴
 
+## what is path
+
 ## how to call python script
 
 ### if \_\_name\_\_ == '\_\_main\_\_'
