@@ -2,6 +2,10 @@
 
 ## Unix Shell（命令行）
 
+### CLI(command-line interface)
+
+read-evaluate-print loop(REPL)
+
 ### 命令
 
 `ls` 列目录 list
@@ -34,7 +38,9 @@
 
 `rmdir` 删除空目录
 
-`pwd` 显示当前路径
+`pwd` 显示当前路径 print working directory
+
+directory(folder)
 
 `ctrl+q` 恢复被暂停的输出
 
@@ -54,7 +60,15 @@ if \_\_name\_\_ == '\_\_main\_\_'的意思是：当.py 文件被直接运行时�
 
 一个 Python 源码文件（.py）除了可以被直接运行外，还可以作为模块（也就是库），被其他.py 文件导入。不管是直接运行还是被导入，.py 文件的最顶层代码都会被运行（Python 用缩进来区分代码层次），而当一个.py 文件作为模块被导入时，我们可能不希望一部分代码被运行。
 
+### \_\_pycache\_\_
+
+When we import a file, Python translates the source code into instructions called byte codes that it can execute efficiently. Since the byte codes only change when the source changes, Python saves the byte code in a separate file, and reloads that file instead of re-translating the source code the next time it’s asked to import the file (unless the file has changed, in which case Python starts from the beginning).
+
+Python creates a subdirectory called **pycache** that holds the byte code for the files imported from that directory.
+
 Ref:
+
+[Research Software Engineering with Python](https://merely-useful.tech/py-rse/index.html)
 
 [unix shell](https://baike.baidu.com/item/unix%20shell/2478385?fr=aladdin)
 
