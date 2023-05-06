@@ -31,3 +31,5 @@ Some basic knowledge to be reviewed
 ## how to use django
 
 ## how to create a package
+
+## how to use chatgpt in python
